@@ -14,7 +14,7 @@ class ButtonsGridView extends StatelessWidget {
     var itemsList = buttonList;
 
     return SizedBox(
-      height: 470.h,
+      height: MediaQuery.sizeOf(context).height * 0.55,
       child: Column(
         children: [
           Expanded(
